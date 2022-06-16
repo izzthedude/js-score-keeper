@@ -6,11 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ping Pong Scores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <main id="main-content">
+        <img src="pingpong.jpg" alt="A picture of a ping pong paddle and ball on a ping pong table.">
 
+        <h1 id="game-title">Ping Pong Score Keeper</h1>
+        <h1 id="score-tracker"><span id="score-player-one">0</span> - <span id="score-player-two">0</span>
+        </h1>
+        <h3>Playing to <input type="number" id="max-rounds" max="5" min="0"></h3>
+
+        <p>Use the buttons below to keep score</p>
+        <p id="control-buttons"><button id="btn-player-one">+1 Player One</button><button id="btn-player-two">+1 Player
+                Two</button><button id="btn-reset">Reset</button>
+        </p>
+    </main>
 
 </body>
 
