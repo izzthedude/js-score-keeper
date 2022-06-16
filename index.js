@@ -10,6 +10,7 @@ const btnPlayerOne = document.querySelector("#btn-player-one");
 const btnPlayerTwo = document.querySelector("#btn-player-two");
 const btnReset = document.querySelector("#btn-reset");
 
+// Set initial win state
 let gameWin = false;
 
 // Set initial max value
